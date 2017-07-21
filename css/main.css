@@ -173,11 +173,11 @@ header {
 }
 
 .banner--clone {
-	background:#fac42b;
+	background:#ffffff;
 }
 
 .banner--clone .navbar-custom a {
-	color:#eeeeee;
+	color:#777777;
 }
 
 .banner--clone .navbar-custom .navbar-nav > li > a:hover {
@@ -226,11 +226,11 @@ header {
 }
 
 .service i {
-	color:#fac42b;
+	color:#146ebc;
 }
 
 .service:hover {
-	background:#fac42b;
+	background:#146ebc;
 	-webkit-transition: all 0.3s;
 	-moz-transition: all 0.3s;
 	transition: all 0.3s;
@@ -275,8 +275,8 @@ header {
 #program {
 	background: 
     linear-gradient(
-      rgba(250, 196, 43, 0.60), 
-      rgba(250, 196, 43, 0.60)
+	  rgba(0, 89, 255,0.3),
+	  rgba(0, 89, 255,0.3)
     ),
 	
     url(../img/program-bg.png);
@@ -311,7 +311,7 @@ header {
 
 .program .icon {
 	color:#000000;
-	background:#fac42b;
+	background:#146ebc;
 	padding:10px;
 	display:table;
 	position:absolute;
@@ -338,7 +338,7 @@ header {
 
 #program-detail .icon {
 	color:#000000;
-	background:#fac42b;
+	background:#146ebc;
 	padding:10px;
 	margin-right:10px;
 	display:table;
@@ -392,7 +392,7 @@ header {
 }
 
 .fact i {
-	color:#fac42b;
+	color:#146ebc;
 	vertical-align:middle;
 	margin-bottom:20px;
 }
@@ -401,7 +401,7 @@ header {
 /* STORIES */
 
 #stories {
-	background:#fac42b;
+	background:#146ebc;
 	background-image: url(../img/map-black.png);
     background-repeat: no-repeat;
     background-position: right bottom;
@@ -436,7 +436,7 @@ header {
 
 .story .icon {
 	color:#000000;
-	background:#fac42b;
+	background:#146ebc;
 	padding:10px;
 	display:table;
 	position:absolute;
@@ -501,7 +501,7 @@ header {
 
 #story-detail .icon {
 	color:#000000;
-	background:#fac42b;
+	background:#146ebc;
 	padding:10px;
 	margin-right:10px;
 	display:table;
@@ -559,7 +559,7 @@ header {
 
 .event .icon {
 	color:#000000;
-	background:#fac42b;
+	background:#146ebc;
 	width:25%;
 	padding:5px;
 	text-align:center;
@@ -591,7 +591,7 @@ header {
 
 #upcoming-events .owl-buttons .icon {
 	color:#ffffff;
-	background:#fac42b;
+	background:#146ebc;
 	width:20px;
 	height:20px;
 	border-radius:0;
@@ -639,7 +639,7 @@ header {
 }
 
 .news .date i {
-	color:#fac42b;
+	color:#146ebc;
 }
 
 /* Common style */
@@ -647,7 +647,7 @@ header {
 	position: relative;
 	z-index: 1;
 	overflow: hidden;
-	background: #fac42b;
+	background: #146ebc;
 	text-align: center;
 	cursor: pointer;
 }
@@ -748,7 +748,7 @@ figure.news-effect h3::after {
 	left: 0;
 	width: 100%;
 	height: 3px;
-	background: #fac42b;
+	background: #146ebc;
 	content: '';
 	-webkit-transition: -webkit-transform 0.35s;
 	transition: transform 0.35s;
@@ -799,7 +799,7 @@ figure.news-effect i {
 
 #news-detail .date {
 	color:#000000;
-	background:#fac42b;
+	background:#146ebc;
 	padding:10px;
 	margin-right:10px;
 	display:table;
@@ -822,7 +822,7 @@ figure.news-effect i {
 
 footer {
 	color:#000000;
-	background:#fac42b;
+	background:#146ebc;
 	padding:55px 0;
 	
 	background-image: url(../img/map-black.png);
@@ -863,11 +863,11 @@ footer .button {
 }
 
 .social .fa-inverse {
-	color:#fac42b;
+	color:#146ebc;
 }
 
 .social .fa-inverse:hover {
-	color:#fac42b;
+	color:#146ebc;
 }
 
 .social a {
@@ -903,7 +903,7 @@ footer .button {
 }
 
 .subfooter a:hover {
-	color:#fac42b;
+	color:#146ebc;
 	text-decoration:none;
 	-webkit-transition: all 0.3s;
 	-moz-transition: all 0.3s;
@@ -975,7 +975,7 @@ footer .button {
 
 .button-light {
 	color:#ffffff;
-	background:#fac42b;
+	background:#146ebc;
 }
 
 .button-light:hover,
@@ -991,7 +991,7 @@ footer .button {
 
 .button-dark:hover,
 .button-dark:active {
-	color:#fac42b;
+	color:#146ebc;
 	text-decoration:none;
 }
 
@@ -1050,7 +1050,7 @@ footer .button {
 	position: relative;
 	width: 10em;
 	height: 10em;
-	box-shadow: inset 0 0 0 1em #fac42b;
+	box-shadow: inset 0 0 0 1em #146ebc;
 }
 
 .loader:after {
@@ -1092,11 +1092,11 @@ footer .button {
 /* OWL CAROUSEL */
 
 .owl-theme .owl-controls .owl-page span {
-	background:#fac42b;
+	background:#146ebc;
 }
 
 .owl-theme .owl-controls .owl-buttons div{
-	color:#fac42b;
+	color:#146ebc;
 	padding:0;
 }
 
