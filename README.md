@@ -12,6 +12,7 @@ The site is divided into different sections which can be used accordingly.
 
 
 
+
 <h1>To Deploy This App on Heroku -</h1> 
 
 [![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy)
@@ -31,16 +32,16 @@ The site is divided into different sections which can be used accordingly.
 
 cd Projects(Or the Directory in which it is saved)/iosd-frontend-master
 
-7) Create an index.php file and fill in this one line of code.
+7) Create an index.php file with PHP opening and closing Tags and fill in this one line of code.
 
-<?php header( 'Location: /index.html' ) ;  ?>
+  header( 'Location: /index.html' ) 
 
 The index.php file will be served by Heroku before index.html. We need to make the browser redirect from index.php to index.html.
 
 8) Then we’ll use the command line tool called git to initialize or create a version of the site you want to deploy. To do that run the command:
 
 git init
-git add .
+git add -A
 
 9) Then you want to commit or save all the changes for the site. With a message describing what you’ve done.
 
