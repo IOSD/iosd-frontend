@@ -7,11 +7,12 @@ A Bootstrap-Theme based site.
 
 The site is divided into different sections which can be used accordingly.
 
-To Use the Site as your template locally Clone or Download the Zip file of the site.
+
+<strong>To Use the Site as your template locally Clone or Download the Zip file of the site.</strong>
 
 
 
-To Deploy This App on Heroku - 
+<h1>To Deploy This App on Heroku -</h1> 
 
 [![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy)
 
