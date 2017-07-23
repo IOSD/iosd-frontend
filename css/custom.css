@@ -9,6 +9,10 @@
     -webkit-font-smoothing: antialiased;
 }
 
+.margin-top-10 {
+    padding-top: 5%;
+}
+
 #contact-form {
     max-width: 90%;
     margin: 0 auto;

@@ -279,11 +279,11 @@ header {
 	  rgba(0, 89, 255,0.3)
     ),
 	
-    url(../img/program-bg.png);
-	background-repeat:no-repeat;
-	background-size:cover;
-	-webkit-background-size:cover;
-	-moz-background-size:cover;
+    url(../img/program-banner.jpg);
+	/*background-repeat:no-repeat;*/
+	/*background-size:cover;*/
+	/*-webkit-background-size:cover;*/
+	/*-moz-background-size:cover;*/
 }
 
 .programs {

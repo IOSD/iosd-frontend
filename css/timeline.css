@@ -49,10 +49,10 @@
   box-sizing: border-box;
 }
 
-/* Fonts */
-body {
-  font-family: Roboto;
-}
+/*!* Fonts *!*/
+/*body {*/
+  /*font-family: Roboto;*/
+/*}*/
 
 #timeline {
   padding: 100px 0;
