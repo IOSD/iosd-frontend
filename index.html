@@ -934,30 +934,36 @@
         <div class="minimal-form">
             <link href='https://fonts.googleapis.com/css?family=Lato' rel='stylesheet' type='text/css'>
 
-            <form id="chapter-form">
+            <form id="chapter-form" action="form_handler.php" method="post">
                 <p>Hi,</p>
                 <p>We want to open a chapter of IOSD , my
-                    <label for="your-name">name</label> is
-                    <input type="text" name="your-name" id="chapter-name" minlength="3" placeholder="(your name here)"
-                           required> and</p>
+                    <label for="name">name</label> is
+                    <input type="text" name="name" id="name" minlength="3" placeholder="(your name here)"
+                           required>,</p>
 
                 <p>my
                     <label for="email">email address</label> is
-                    <input type="email" name="your-email" id="chapter-email" placeholder="(your email address)"
+                    <input type="email" name="email" id="email" placeholder="(your email address)"
                            required>
-                </p>
+                , </p>
+
+                <p> my
+                    <label for="college">college </label> is
+                    <input type="text" name="college" id="college" placeholder="(your college name)"
+                           required> ,
+                 </p>
 
                 <p> and my
-                    <label for="email">college </label> is
-                    <input type="email" name="your-email" id="chapter-college" placeholder="(your college name)"
+                    <label for="college">phone number </label> is
+                    <input type="number" name="phone" id="phone" placeholder="(your phone number)"
                            required>
                 </p>
 
                 <p> I have a
-                    <label for="your-message">message</label> for you,</p>
+                    <label for="message">message</label> for you,</p>
 
                 <p>
-                            <textarea name="your-message" id="chapter-message" placeholder="(your msg here)"
+                            <textarea name="message" id="message" placeholder="(your msg here)"
                                       class="expanding"
                                       required></textarea>
                 </p>
