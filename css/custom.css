@@ -168,3 +168,13 @@ small {
 .website a {
     color: black;
 }
+
+
+@media (max-width: 700px){
+    #top h1 {
+        font-size: 40px;
+    }
+}
+
+
+
