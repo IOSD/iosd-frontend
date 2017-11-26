@@ -1,0 +1,106 @@
+@import "bourbon";
+
+
+//Edit these
+$farColor: #ffe4c7;
+$nearColor: darken(cyan,30%);
+$layer: 7; //make sure it is +1 the ammount of layer divs in the html
+$perspective: 1;
+
+.bg {
+  position:absolute;
+  height:100%;
+  width:100%;
+  top:0px;
+  z-index:0;
+  background-color:$farColor;
+}
+
+.layer {
+  position:fixed;
+  top:0px;
+  margin:auto;
+  width:100%;
+  z-index:100;
+  min-height:400px;
+  top: 0; left: 0; right: 0; bottom: 0;
+  background-position: top center;
+  background-repeat: no-repeat;
+}
+
+.parallax {
+  height: 100vh;
+  overflow-x: hidden;
+  overflow-y: scroll;
+  perspective: #{$perspective + px};
+}
+
+.parallax-group {
+  position: relative;
+  height: 100vh;
+  transform-style: preserve-3d;
+}
+
+
+
+
+@for $i from 1 to $layer {
+  .parallax-group div:nth-child(#{$i}) {
+    
+    //figure out best mixing math, this isn't true to the starting colors, doesnt scale that well
+    $mixedColor: mix($nearColor, $farColor, $i*15); 
+    $randOffset: random(300)+px;
+    $zDepth: ($layer - $i)/0.5;
+    
+    background-color:$farColor;    
+    margin-top:#{300*($i+1) + px};
+    background-color:$mixedColor;
+    transform: translateZ(#{-($zDepth) + px}) scale(#{1 + (-($zDepth) * -1) / $perspective});
+ 
+    &:before {
+      content:"";
+      width:100%;
+      height:200px;
+      position:absolute;
+      bottom:100%;
+      left:0;
+      background-image: linear-gradient(135deg, transparent 66%, $mixedColor 66.01%),
+                        linear-gradient(45deg, $mixedColor 34%, transparent 34.01%);
+      background-position: $randOffset 0px;
+      background-size: 200px 100%;
+      background-repeat:repeat-x;
+    }
+  }
+
+} //loop over
+
+
+
+
+
+
+
+///Demo specific styling
+
+
+
+.content {
+  position:relative;
+  background-color:transparent;
+  font-family:"Arial";
+  letter-spacing:10px;
+  text-transform:uppercase;
+  line-height:40px;
+  z-index:10;
+  width:100%;
+  font-size:15px;
+  text-align:center;
+  color:white;
+  margin-top:1000px;
+  $zDepth: (1)/0.5;
+  transform: translateZ(#{-($zDepth) + px}) scale(#{1 + (-($zDepth) * -1) / $perspective});
+}
+ 
+.fill {
+  height:80%; //?
+}
