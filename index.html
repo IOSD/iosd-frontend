@@ -877,6 +877,26 @@
 
     }
 
+    .break-overflow{
+        overflow-wrap: break-word;
+    }
+
+    /* Styles for sub heading of the DREAM PROJECT INITATIVE */
+    .dp-subHeading{
+        display: block;
+        font-size: 40px;
+        font-weight: bold;
+        line-height: 40px;
+    }
+
+    @media (max-width: 500px){
+        .dp-subHeading{
+            font-size: 25px;
+            line-height: 35px;
+        }
+    }
+    /*----------------------------------------------------*/
+
     /*.heading-dream > span {*/
         /*background: url(http://www.circlek.org/Libraries/2013_branding_design_elements/graphics_CKI_horizontal_stripesorange_CMYK.sflb.ashx) repeat;*/
         /*-webkit-background-clip: text;*/
@@ -899,19 +919,19 @@
 
 <div>
     <div class="cd-fixed-bg cd-bg-1">
-        <div class="container layer-100">
+        <div class="container layer-100 break-overflow">
 
             <h1 style="color:black; text-align:center; font-size:600%;" class="heading-dream">
                 <span>Dream Project</span>
                 <span>Initiative</span>
             </h1>
 
-            <h2>Inter IOSD Chapter Challenge,
+            <span class="dp-subHeading">Inter IOSD Chapter Challenge,
                 All the chapters provide a
                 detailed plan for a research
                 project. The Best project idea
                 gets full funding for the
-                research.</h2>
+                research.</span>
             <!--<br><br><br><br><br><br><br><br>-->
         </div>
     </div>
@@ -950,7 +970,7 @@
             </div>
             <div class="col-md-4">
                 <a href="https://codingblocks.com/" target="_blank"><img width = "200px" height="200px"src="sponsors/cb.jpg" alt="CB"/></a>
-                </div>
+            </div>
         </div>
         <div class="row" style="text-align: center;">
             <div class="col-md-4">
@@ -997,17 +1017,20 @@
 
         </div>
         <div class="row" style="text-align: center;">
-            <div class="col-md-4">
+            <div class="col-md-3">
                 <a href="http://www.doselect.com/" target="_blank"><img src="img/sponsor/250x250x1.jpg" alt="doselect"/></a>
             </div>
-            <div class="col-md-4">
+            <div class="col-md-3">
                 <a href="http://www.digitalocean.com/" target="_blank"><img src="img/sponsor/250x250x3.jpg"
                                                                             alt="digitalocean"/></a>
             </div>
-            <div class="col-md-4">
+            <div class="col-md-3">
                 <a href="http://www.sendgrid.com/" target="_blank"><img src="img/sponsor/250x250x4.jpg" alt="sendgrid"/></a>
             </div>
-
+            <div class="col-md-3">
+                <a href="https://mlh.io/" target="_blank"><img src="./sponsors/mlh_s.png"
+                                                                           alt="Major League Hacking"/></a>
+            </div>
         </div>
         <br><br>
 
