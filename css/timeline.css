@@ -105,6 +105,7 @@
   margin: 10px auto 80px;
   max-width: 94%;
   z-index: 2;
+  overflow: hidden;
 }
 @media (min-width: 580px) {
   #timeline .demo-card {
