@@ -877,6 +877,26 @@
 
     }
 
+    .break-overflow{
+        overflow-wrap: break-word;
+    }
+
+    /* Styles for sub heading of the DREAM PROJECT INITATIVE */
+    .dp-subHeading{
+        display: block;
+        font-size: 40px;
+        font-weight: bold;
+        line-height: 40px;
+    }
+
+    @media (max-width: 500px){
+        .dp-subHeading{
+            font-size: 25px;
+            line-height: 35px;
+        }
+    }
+    /*----------------------------------------------------*/
+    
     /*.heading-dream > span {*/
         /*background: url(http://www.circlek.org/Libraries/2013_branding_design_elements/graphics_CKI_horizontal_stripesorange_CMYK.sflb.ashx) repeat;*/
         /*-webkit-background-clip: text;*/
@@ -899,19 +919,19 @@
 
 <div>
     <div class="cd-fixed-bg cd-bg-1">
-        <div class="container layer-100">
+        <div class="container layer-100 break-overflow">
 
             <h1 style="color:black; text-align:center; font-size:600%;" class="heading-dream">
                 <span>Dream Project</span>
                 <span>Initiative</span>
             </h1>
 
-            <h2>Inter IOSD Chapter Challenge,
+            <span class="dp-subHeading">Inter IOSD Chapter Challenge,
                 All the chapters provide a
                 detailed plan for a research
                 project. The Best project idea
                 gets full funding for the
-                research.</h2>
+                research.</span>
             <!--<br><br><br><br><br><br><br><br>-->
         </div>
     </div>
